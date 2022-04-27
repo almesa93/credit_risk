@@ -28,17 +28,17 @@ We found the following situation:
 
      Column                                Non-Null Count   Dtype  
 
- 0   SeriousDlqin2yrs                      104805 non-null  int64  
- 1   RevolvingUtilizationOfUnsecuredLines  104805 non-null  float64
- 2   age                                   104805 non-null  int64  
- 3   NumberOfTime30-59DaysPastDueNotWorse  104805 non-null  int64  
- 4   DebtRatio                             104805 non-null  float64
- 5   MonthlyIncome                         84024 non-null   float64
- 6   NumberOfOpenCreditLinesAndLoans       104805 non-null  int64  
- 7   NumberOfTimes90DaysLate               104805 non-null  int64  
- 8   NumberRealEstateLoansOrLines          104805 non-null  int64  
- 9   NumberOfTime60-89DaysPastDueNotWorse  104805 non-null  int64  
- 10  NumberOfDependents                    102056 non-null  float64
+     SeriousDlqin2yrs                      104805 non-null  int64  
+     RevolvingUtilizationOfUnsecuredLines  104805 non-null  float64
+     age                                   104805 non-null  int64  
+     NumberOfTime30-59DaysPastDueNotWorse  104805 non-null  int64  
+     DebtRatio                             104805 non-null  float64
+     MonthlyIncome                         84024 non-null   float64
+     NumberOfOpenCreditLinesAndLoans       104805 non-null  int64  
+     NumberOfTimes90DaysLate               104805 non-null  int64  
+     NumberRealEstateLoansOrLines          104805 non-null  int64  
+     NumberOfTime60-89DaysPastDueNotWorse  104805 non-null  int64  
+     NumberOfDependents                    102056 non-null  float64
  
 In addition, the target value was totally unbaalanced, so it was needed to add a param in the models to fix it.
  
