@@ -15,7 +15,7 @@ To get this goal, we have a dataset with the following columns:
 - NumberOfTime60-89DaysPastDueNotWorse
 - NumberOfDependents
 
-After some investigation, the people who has a Revolving score higher than 2, are outliers.
+After some investigation, the people who has a Revolving score higher than 2, are outliers. People who uses this kind of credits have, normally, economical problems.
 
 NumberOfTime60-89DaysPastDueNotWorse and NumberOfTimes90DaysLate are variables that has a high correlation coefficient, so they could cause some disturbances in our model.
 
