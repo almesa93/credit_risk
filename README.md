@@ -24,7 +24,7 @@ In these case, we tried with two ensembles models, Random Forest and XGBoost, wh
 We found the following situation:
 
 #   Column                                Non-Null Count   Dtype  
----  ------                                --------------   -----  
+
  0   SeriousDlqin2yrs                      104805 non-null  int64  
  1   RevolvingUtilizationOfUnsecuredLines  104805 non-null  float64
  2   age                                   104805 non-null  int64  
@@ -37,6 +37,7 @@ We found the following situation:
  9   NumberOfTime60-89DaysPastDueNotWorse  104805 non-null  int64  
  10  NumberOfDependents                    102056 non-null  float64
  
+In addition, the target value was totally unbaalanced, so it was needed to add a param in the models to fix it.
  
 As you can see, there are some null values that must be preprocessed. With a SimpleImputer, we can fill the null values (mean value in case of MonthlyIncome and mode in case of NumberOfDependents) and we can make a StandardScaler to obtain better results.
 
