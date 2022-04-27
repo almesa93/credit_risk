@@ -1,4 +1,7 @@
 # credit_risk
+
+<img src="https://media.istockphoto.com/photos/stacked-credit-cards-picture-id1203763961?s=612x612" alt="drawing" width="600"/>
+
 This project uses a Machine Learning model to detect if a client has a properly profile to grant him a credit.
 
 To get this goal, we have a dataset with the following columns:
