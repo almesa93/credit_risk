@@ -22,7 +22,7 @@ After some investigation, the people who has a Revolving score higher than 2, ar
 
 NumberOfTime60-89DaysPastDueNotWorse and NumberOfTimes90DaysLate are variables that has a high correlation coefficient, so they could cause some disturbances in our model.
 
-In these case, we tried with two ensembles models, Random Forest and XGBoost, which are two of the models that gives the best results. The next step in this project will be to create a NN with Tensorflow and Keras, which will have better results.
+In these case, we tried with two ensembles models, Random Forest and XGBoost, which are two of the models that gives the best results, and a NN with Tensorflow and Keras, which will have even better results.
 
 We found the following situation:
 
@@ -44,4 +44,5 @@ In addition, the target value was totally unbaalanced, so it was needed to add a
  
 As you can see, there are some null values that must be preprocessed. With a SimpleImputer, we can fill the null values (mean value in case of MonthlyIncome and mode in case of NumberOfDependents) and we can make a StandardScaler to obtain better results.
 
-The final score was a roc_auc_score of 0.789 with the Random Forest Classifier model.
+The AUC score with the Random Forest Classifier model was 0.789
+The AUC score with the NN Keras model was 0.842
