@@ -26,7 +26,7 @@ In these case, we tried with two ensembles models, Random Forest and XGBoost, wh
 
 We found the following situation:
 
-#   Column                                Non-Null Count   Dtype  
+     Column                                Non-Null Count   Dtype  
 
  0   SeriousDlqin2yrs                      104805 non-null  int64  
  1   RevolvingUtilizationOfUnsecuredLines  104805 non-null  float64
